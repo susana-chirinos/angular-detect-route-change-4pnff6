@@ -1,0 +1,21 @@
+<h1>Detect Route Change Angular</h1>
+For the Tutorial <a
+   href="https://www.angularjswiki.com/angular/how-to-detect-route-change-in-angular-with-examples/">https://www.angularjswiki.com/angular/how-to-detect-route-change-in-angular-with-examples/</a> 
+<ul>
+   <li routerLinkActive="active">
+      <a [routerLink]="['/']">Home</a>
+   </li>
+   <li routerLinkActive="active">
+      <a [routerLink]="['/aboutus']">About Us</a>
+   </li>
+   <li routerLinkActive="active">
+      <a [routerLink]="['/services']">Services</a>
+   </li>
+   <li routerLinkActive="active">
+      <a [routerLink]="['/contactus']">Contact Us</a>
+   </li>
+</ul>
+
+The current Route Is {{currentRoute}}
+
+<router-outlet></router-outlet>
